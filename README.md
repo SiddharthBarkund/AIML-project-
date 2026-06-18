@@ -13,16 +13,6 @@ The workspace is organized into logical directories reflecting a progressive lea
 | 📁 **`Python_Basics/`** & **`PythonLib/`** | Foundations of Python & Data Science Stack | Basic Syntax, Data Structures, Control Flow, Functions, **NumPy**, **Pandas**, **Matplotlib**, **Seaborn** |
 | 📁 **`Regression/`** | Continuous value prediction models | Linear Regression, Lasso & Ridge Regression, LassoCV, Decision Tree Regressor, Insurance Charges Analysis |
 | 📁 **`Classification/`** | Categorical value prediction models | Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree Classifier, Support Vector Machines (SVM) |
-| 📁 **`Ensemble/`** | Advanced model combining techniques | Voting Classifier/Regressor, Stacking, AdaBoost, XGBoost |
-| 📁 **`Unsupervised/`** | Pattern recognition & Dimensionality reduction | K-Means, DBSCAN, Hierarchical Clustering, Principal Component Analysis (PCA) |
-| 📁 **`Anomaly_Detection/`** | Identifying outliers and anomalies | Isolation Forest |
-| 📁 **`Datasets/`** | Raw data files for exercises | `AutoInsurance.csv`, `loan_approval_dataset.csv`, `15_insurance.csv` |
-| 📁 **`Projects/`** | End-to-end predictive and analysis projects | Sales Prediction, Titanic Survival Classification, Car Price Prediction, Iris Classification, Loan Preprocessing & Clustering |
-| 📄 **`sidd.py`** | Comparative ML Classifier script | Comparison of Logistic Regression, Decision Tree, and Random Forest on the Titanic dataset with ROC & Feature Importance |
-| 📄 **`titanic_project.py`** | Titanic Data Cleaning & Visualization | Feature engineering, missing value imputation, Seaborn plotting, and dataset export |
-| 📄 **`Real-world Data Project.py`**| Sales Prediction Regression script | Linear regression modeling using advertising and store size to predict sales |
-| 📄 **`EDA_PROJECT.py`** | Generic Reusable EDA Framework | Automation script for descriptive statistics, missing value handling, IQR outlier detection, and correlation analysis |
-
 ---
 
 ## 🛠️ Detailed Component Breakdown
@@ -44,18 +34,6 @@ The workspace is organized into logical directories reflecting a progressive lea
   * **K-Nearest Neighbors (KNN)**: Distance-based classification.
   * **Decision Trees**: Entropy/Gini-based splits.
   * **Support Vector Machines (SVM)**: Margins and kernel tricks.
-
-### 4. Ensemble Methods (`Ensemble/`)
-* **Voting & Stacking**: Combining predictions from heterogeneous models to boost overall accuracy.
-* **AdaBoost**: Sequential boosting focusing on hard-to-classify points.
-* **XGBoost**: Gradient boosted decision trees optimized for performance and speed.
-
-### 5. Unsupervised Learning (`Unsupervised/` & `Anomaly_Detection/`)
-* **K-Means Clustering**: Partitioning data into $K$ clusters using centroids.
-* **DBSCAN**: Density-based clustering capable of discovering arbitrary shapes and noise/outliers.
-* **Hierarchical Clustering**: Dendrogram-based agglomerative clustering.
-* **Principal Component Analysis (PCA)**: Linear dimensionality reduction while preserving variance.
-* **Isolation Forest**: Isolating anomalies/outliers using random forests.
 
 ---
 
