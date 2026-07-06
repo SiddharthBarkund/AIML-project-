@@ -13,6 +13,10 @@ The workspace is organized into logical directories reflecting a progressive lea
 | 📁 **`Python_Basics/`** & **`PythonLib/`** | Foundations of Python & Data Science Stack | Basic Syntax, Data Structures, Control Flow, Functions, **NumPy**, **Pandas**, **Matplotlib**, **Seaborn** |
 | 📁 **`Regression/`** | Continuous value prediction models | Linear Regression, Lasso & Ridge Regression, LassoCV, Decision Tree Regressor, Insurance Charges Analysis |
 | 📁 **`Classification/`** | Categorical value prediction models | Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree Classifier, Support Vector Machines (SVM) |
+| 📁 **`Unsupervised/`** | Clustering and dimensionality reduction | K-Means, DBSCAN, Hierarchical Clustering, PCA |
+| 📁 **`Ensemble/`** | Ensemble machine learning methods | Random Forest |
+| 📁 **`Anomaly_Detection/`** | Identifying rare items, events or observations | Isolation Forest |
+| 📁 **`evaluation_matrix/`** | Model evaluation metrics | Accuracy, Precision |
 ---
 
 ## 🛠️ Detailed Component Breakdown
@@ -34,6 +38,21 @@ The workspace is organized into logical directories reflecting a progressive lea
   * **K-Nearest Neighbors (KNN)**: Distance-based classification.
   * **Decision Trees**: Entropy/Gini-based splits.
   * **Support Vector Machines (SVM)**: Margins and kernel tricks.
+
+### 4. Unsupervised Learning (`Unsupervised/`)
+* **K-Means**: Centroid-based clustering.
+* **DBSCAN**: Density-based spatial clustering.
+* **Hierarchical Clustering**: Agglomerative tree-based clustering.
+* **PCA (Principal Component Analysis)**: Dimensionality reduction.
+
+### 5. Ensemble Methods (`Ensemble/`)
+* **Random Forest**: Ensemble of decision trees for robust predictions.
+
+### 6. Anomaly Detection (`Anomaly_Detection/`)
+* **Isolation Forest**: Unsupervised approach for identifying outliers and anomalies.
+
+### 7. Evaluation Metrics (`evaluation_matrix/`)
+* **Classification Metrics**: Practical implementations of accuracy and precision.
 
 ---
 
